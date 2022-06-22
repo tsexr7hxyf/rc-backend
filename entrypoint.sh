@@ -10,6 +10,6 @@ fi
 
 while :
 do
-	rclone $*
+	sh -c "rclone $*"
 	sleep 5m 1s
 done
