@@ -10,6 +10,6 @@ fi
 
 while :
 do
-	rclone $*
+	rclone sync "drive1ee:" "onedrive:" --transfers 5 --checkers 5 -P --ignore-existing --drive-chunk-size 16M --onedrive-chunk-size=5M --drive-acknowledge-abuse --drive-stop-on-upload-limit
 	sleep 5m 1s
 done
