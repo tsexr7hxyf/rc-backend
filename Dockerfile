@@ -15,4 +15,6 @@ RUN apk add --no-cache bash curl unzip ca-certificates fuse openssh-client \
 
 ADD *.sh /
 
+RUN chmod +x entrypoint.sh
+
 ENTRYPOINT ["/entrypoint.sh"]
