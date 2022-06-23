@@ -7,7 +7,6 @@ LABEL "com.github.actions.color"="blue"
 
 LABEL "repository"="https://github.com/tsexr7hxyf/rc-backend"
 LABEL "homepage"="https://github.com/tsexr7hxyf/rc-backend"
-LABEL "maintainer"="Wei He <github@weispot.com>"
 
 RUN apk add --no-cache bash curl unzip ca-certificates fuse openssh-client \
   && wget -qO- https://rclone.org/install.sh | bash \
